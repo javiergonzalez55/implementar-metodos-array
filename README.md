@@ -40,11 +40,8 @@ São codigos com lógicas simples para reforçãr o uso dos metodos de manipula�
 
 **sistema que automatiza o atendimento dos pacientes de uma clinica**
 
-![image](https://github.com/javiergonzalez55/implementar-metodos-array/assets/134230318/b1336c90-a6e6-4f46-b0a8-3ba3a4327fab)
+![image](https://github.com/javiergonzalez55/implementar-metodos-array/assets/134230318/aff3fca2-9279-4585-8fab-6c280829cc7c)
 
-![image](https://github.com/javiergonzalez55/implementar-metodos-array/assets/134230318/00ae8a2f-ae69-4f1d-b176-46cb29442e07)
-
-![image](https://github.com/javiergonzalez55/implementar-metodos-array/assets/134230318/cb2fc85b-e321-4648-9cb1-94fae5d7873e)
 
 
 
