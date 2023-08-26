@@ -29,7 +29,8 @@ COMO INSTALAR:
 
 1.- Fazer um fork do repositorio <https://github.com/javiergonzalez55/implementar-metodos-array>
 
-2.- Clonar o repositorio se atentando em qual dos 3 metodos (chaves HTTPS SSH GitHub CLI) foi executado para a configuração da su máquina
+2.- Clonar o repositorio se atentando em qual dos 3 metodos (chaves HTTPS SSH GitHub CLI) foi executado 
+    para a configuração da su máquina
 
 3.- Conferir que seu repositorio local está executando na branch main 
 
