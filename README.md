@@ -1,27 +1,26 @@
 # implementar-metodos-array /n
 
-como implementar distintos metodos de array
+como implementar distintos metodos de array /n
 
-Sobre: /n
+SOBRE: 
 
-Trata-se de exercicios simples onde estam implementados os métodos mais usados, dentre eles os metodos every, some, find, findIndex, filter, map, reverse, splice, slice, sort, reduce
+Trata-se de exercicios simples onde estam implementados os métodos mais usados, dentre eles os metodos every, some, find, findIndex, filter, map, reverse, splice, slice, sort, reduce /n
 
-Caracteristicas:
+CARACTERISTICAS:
 
-São codigos com logicas simples para reforçãr o uso dos metodos de manipulação de arrays nativos de JavaScript, onde destaca o uso de funções para aproveitar partes do codigo en outros projetos inclusive.
+São codigos com logicas simples para reforçãr o uso dos metodos de manipulação de arrays nativos de JavaScript, onde destaca o uso de funções para aproveitar partes do codigo en outros projetos inclusive. /n
 
-Ferramentas usadas:
+FERRAMENTAS USADAS:
 
-Nodejs, JavaScript, Git, GitHub
+Nodejs, JavaScript, Git, GitHub /n
 
-Requerimentos:
+REQUERIMENTOS:
 
 Ferramentas vscode, nodejs, git
 
-Plataforma GitHub
+Plataforma GitHub /n
 
-
-Como Instalar
+COMO INSTALAR:
 
 1.- Fazer um fork do repositorio https://github.com/javiergonzalez55/implementar-metodos-array
 
