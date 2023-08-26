@@ -1,8 +1,8 @@
-# implementar-metodos-array
+# implementar-metodos-array /n
 
 como implementar distintos metodos de array
 
-Sobre:
+Sobre: /n
 
 Trata-se de exercicios simples onde estam implementados os métodos mais usados, dentre eles os metodos every, some, find, findIndex, filter, map, reverse, splice, slice, sort, reduce
 
