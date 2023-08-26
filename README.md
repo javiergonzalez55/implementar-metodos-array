@@ -1,6 +1,6 @@
 # implementar-metodos-array
 
-como implementar distintos metodos de array
+como implementar distintos metodos de array </n>
 
 
 SOBRE: 
