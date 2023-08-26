@@ -1,4 +1,4 @@
-# Implementação dos métodos nativos de manipulação de arrays em JavaScript 
+# Implementando métodos de arrays em JavaScript 
 
 **SOBRE:**
 
