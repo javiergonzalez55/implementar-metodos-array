@@ -1,6 +1,7 @@
 # implementar-metodos-array
 
-como implementar distintos metodos de array/n
+como implementar distintos metodos de array
+
 
 SOBRE: 
 
@@ -26,7 +27,7 @@ Plataforma GitHub
 
 COMO INSTALAR:
 
-1.- Fazer um fork do repositorio https://github.com/javiergonzalez55/implementar-metodos-array
+1.- Fazer um fork do repositorio <https://github.com/javiergonzalez55/implementar-metodos-array>
 
 2.- Clonar o repositorio se atentando em qual dos 3 metodos (chaves HTTPS SSH GitHub CLI) foi executado para a configuração da su máquina
 
