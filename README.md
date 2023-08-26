@@ -42,5 +42,8 @@ São codigos com logicas simples para reforçãr o uso dos metodos de manipulaç
 
 ![image](https://github.com/javiergonzalez55/implementar-metodos-array/assets/134230318/b1336c90-a6e6-4f46-b0a8-3ba3a4327fab)
 
+![image](https://github.com/javiergonzalez55/implementar-metodos-array/assets/134230318/0534e0ad-e79a-47ce-a0ac-0ef86052643a)
+
+
 
 
