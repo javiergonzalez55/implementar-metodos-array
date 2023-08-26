@@ -46,6 +46,9 @@ São codigos com lógicas simples para reforçãr o uso dos metodos de manipula�
 
 ![image](https://github.com/javiergonzalez55/implementar-metodos-array/assets/134230318/e05b6779-f232-4564-87c2-5ddc77ce814a)
 
+![image](https://github.com/javiergonzalez55/implementar-metodos-array/assets/134230318/694f98a8-5758-494d-b3ca-aeed37c93a5c)
+
+
 
 
 
