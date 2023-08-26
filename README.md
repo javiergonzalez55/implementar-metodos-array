@@ -34,4 +34,7 @@ São codigos com logicas simples para reforçãr o uso dos metodos de manipulaç
 
 3.- Conferir que seu repositorio local está executando na branch main 
 
-4.- Fazer as alterações que sejam necessarias e dar git push origim main para trazer as suas contribuções. 
+4.- Fazer as alterações que sejam necessarias e dar git push origim main para trazer as suas contribuções.
+
+![image](https://github.com/javiergonzalez55/implementar-metodos-array/assets/134230318/9ee111a1-4820-461a-b795-fb79907c0af8)
+
