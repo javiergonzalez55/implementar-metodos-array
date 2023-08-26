@@ -20,12 +20,12 @@ FERRAMENTAS USADAS:
 REQUERIMENTOS:
 
 * Ferramentas:
-  vscode
-  nodejs
-  git
+  * vscode
+  * nodejs
+  * git
 
 * Plataforma:
-  GitHub 
+  * GitHub 
 
 COMO INSTALAR:
 
