@@ -2,11 +2,11 @@
 
 **SOBRE:**
 
-Trata-se de exercicios simples onde são implementados os métodos mais usados, dentre eles os metodos every, some, find, findIndex, filter, map, reverse, splice, slice, sort, reduce.
+Trata-se de exercicios simples onde são implementados os métodos mais usados para manipulação de arrays em JavaScript, dentre eles os metodos every, some, find, findIndex, filter, map, reverse, splice, slice, sort, reduce.
 
 **CARACTERISTICAS:**
 
-São codigos com logicas simples para reforçãr o uso dos metodos de manipulação de arrays nativos de JavaScript, onde destaca o uso de funções para aproveitar partes do codigo en outros projetos inclusive. 
+São codigos com lógicas simples para reforçãr o uso dos metodos de manipulação de arrays nativos de JavaScript, onde destaca o uso de funções para aproveitar partes do codigo en outros projetos inclusive. 
 
 **FERRAMENTAS USADAS:**
 
