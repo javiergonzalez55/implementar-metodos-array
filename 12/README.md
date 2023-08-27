@@ -1,33 +1,20 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Exercício 06
+# Exercício 01
 
-## Filtro de caracteres
+## Sistema para biblioteca
 
-Faça um programa que percorra um array com nomes de cidades e retorne um novo array somente com nomes que contenham até 8 caracteres.
+Faça um sistema que possa auxiliar funcionários a localizar em que posição da estante da biblioteca está um determinado livro. Sendo assim, o sistema deve receber o nome do livro e informar a sua posição na estante.
 
-```javascript
-const cidades = [
-    "Salvador",
-    "São Paulo",
-    "Brasilia",
-    "Recife",
-    "Rio de Janeiro",
-]
+```javascript=
+const livros = ['Guerra e Paz', 'A Montanha Mágica', 'Cem Anos de Solidão', 'Dom Quixote', 'A Divina Comédia'];
+const nomeDoLivro = "Dom Quixote";
 ```
 
-Para o exemplo acima, o resultado deve ser:
+Para o exemplo acima o sistema deverá imprimir:
 
 ```
-['Salvador', 'Brasilia', 'Recife']
-```
-
-**Extra**
-
-Formate o novo array de forma que, para o exemplo acima, seja impresso:
-
-```
-Salvador, Brasilia, Recife
+O livro está na posição 4
 ```
 
 Faça o teste com outros exemplos.

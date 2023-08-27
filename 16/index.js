@@ -1,21 +1,11 @@
-// programa que valida se as palavas informadas como argumento em uma função existem pelo
-// menos una vez dentro de um array de palavras que representam as compras que o João deve
-// fazer no mercado. Caso existir deve se imprimir `revise sua lista, joão. possui bebida 
-// com venda proibida!` se não imprime `tudo certo, vamos as compras!`
+// Utilizando `reduce()` faça um programa que determina o maior valor de um array de 
+// números inteiros e imprima o resultado.
 
-const palavras = ["arroz", "feijão", "carne", "cerveja", "macarrão"];
+const numeros = [1, 98, -76, 0, 12, 19, 5, 60, 44]
 
-const validarListaDeCompras = (palavra1, palavra2, arrayPalavras) => {
+const retornarNumeroMaior = numeros.reduce((acumulador, valorAtual) => {
+    if (acumulador < valorAtual) { acumulador = valorAtual };
+    return acumulador;
+});
 
-    const encontrarPlavraProibida = arrayPalavras.some((palavraProibida) => {
-        return palavraProibida === palavra1 || palavraProibida === palavra2;
-    })
-    if (encontrarPlavraProibida) {
-        console.log(`revise sua lista, joão. possui bebida com venda proibida!`)
-
-    } else {
-        console.log(`tudo certo, vamos as compras!`)
-
-    }
-}
-validarListaDeCompras(`cerveja`, `vodka`, palavras);
+console.log(retornarNumeroMaior);

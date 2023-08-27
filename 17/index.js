@@ -1,11 +1,15 @@
-// Utilizando `reduce()` faça um programa que determina o maior valor de um array de 
-// números inteiros e imprima o resultado.
+// programa que valida se todos os numeros de um array de numeros são pares. Caso sejam
+// deve imprimir `array válido` se não imprimir `array inválido`
 
-const numeros = [1, 98, -76, 0, 12, 19, 5, 60, 44]
+const numeros = [0, 122, 4, 6, 10, 3, 44];
 
-const retornarNumeroMaior = numeros.reduce((acumulador, valorAtual) => {
-    if (acumulador < valorAtual) { acumulador = valorAtual };
-    return acumulador;
+const validarNumeros = numeros.every((numero) => {
+    return numero % 2 === 0;
 });
 
-console.log(retornarNumeroMaior);
+if (validarNumeros) {
+    console.log(`array válido`);
+} else {
+    console.log(`array inválido`);
+}
+;

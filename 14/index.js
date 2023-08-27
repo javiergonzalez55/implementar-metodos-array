@@ -1,43 +1,15 @@
-// Usando o método `sort()` resolva as seguintes questões:
+// programa que procura pela quantidades de caracteres de cada palavra dentro de um array
+// de palavras. Caso tenha palavras con mas de 5 caracteres devera imprimir 
+// `existe palavra inválida`, se não deve imprimir `array validado`
 
-// a. Ordenar o array em ordem crescente.
+const palavras = ["livro", "caneta", "sol", "carro", "orelha"]
 
-const numeros = [10, 1, 5, 50, 20, 30, 3, 4, 8, 2]
+const validarPalavras = palavras.some((palavra) => {
+    return palavra.length > 5;
+});
 
-numeros.sort((numero1, numero2) => { return numero1 - numero2 });
-console.log(numeros);
-
-
-// b. Ordenar o array abaixo em ordem decrescente.
-
-numeros.sort((numero1, numero2) => { return numero2 - numero1 });
-console.log(numeros);
-
-
-// c. Ordenar o array abaixo em ordem crescente, com base nos valores dos pontos de código
-//    Unicode.
-
-numeros.sort();
-console.log(numeros);
-
-
-// d. Ordenar o array abaixo em ordem alfabética.
-
-const frutas = ["Banana", "Amora", "abacaxi", "uva", "Pera"]
-
-frutas.sort((fruta1, fruta2) => { return fruta1.localeCompare(fruta2) });
-console.log(frutas);
-
-
-// e. Ordenar o array abaixo em ordem alfabética decrescente.
-
-frutas.sort((fruta1, fruta2) => { return fruta2.localeCompare(fruta1) });
-console.log(frutas);
-
-
-
-// f. Ordenar o array abaixo em ordem crescente, de acordo com a quantidade de caracters 
-//    (do que tem menos caracteres, para o que tem mais)
-
-frutas.sort((fruta1, fruta2) => { return fruta1.length - fruta2.length });
-console.log(frutas);
+if (validarPalavras) {
+    console.log(`existe palavra inválida`)
+} else {
+    console.log(`array validado`)
+};

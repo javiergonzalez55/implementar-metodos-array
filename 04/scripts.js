@@ -3,40 +3,36 @@
 
 function automatizarAtendimento(pacientes, operacao, nomeDoPaciente) {
 
-    let nomeDoPacienteValido = false;
     let tipoOperacao = false;
 
-    for (const paciente of pacientes) {
+    const validarNomeDoPaciente = pacientes.some(paciente => paciente === nomeDoPaciente);
 
-        if (paciente === nomeDoPaciente) {
-            nomeDoPacienteValido = true;
+    if (validarNomeDoPaciente) {
+        const indicePacienteFila = pacientes.findIndex(paciente => paciente === nomeDoPaciente);
 
-            if (operacao === `atender`) {
-                pacientes.splice(0, 1);
-                tipoOperacao = true;
+        if (operacao === `atender`) {
+            pacientes.splice(indicePacienteFila, 1);
+            tipoOperacao = true;
 
-            } else if (operacao === `agendar`) {
-                pacientes.splice(pacientes.indexOf(paciente), 1);
-                pacientes.splice(pacientes.length, 0, paciente);
-                tipoOperacao = true;
+        } else if (operacao === `agendar`) {
+            pacientes.splice(indicePacienteFila, 1);
+            pacientes.push(nomeDoPaciente);
+            tipoOperacao = true;
 
-            } else {
-                console.log(`Tipo de operação Inválido`);
+        } else {
+            console.log(`Tipo de operação Inválido`);
 
-            }
-        };
-    };
-
-    if (nomeDoPacienteValido && tipoOperacao) {
+        }
 
         const listaPacientesAtulizada = pacientes.join(", ");
         console.log(listaPacientesAtulizada);
 
-    } else if (!nomeDoPacienteValido) {
+    } else {
         console.log(`O nome ${nomeDoPaciente} não aparece na lista. Por favor informe um nome válido`);
-    };
-};
+    }
 
-automatizarAtendimento(['José', 'Pedro', 'Maria', 'João', 'Ana', 'Bárbara', 'Joana'], `atender`, `Ana`);
+}
+
+automatizarAtendimento(['José', 'Pedro', 'Maria', 'João', 'Ana', 'Bárbara', 'Joana'], `agendar`, `Ana`);
 
 

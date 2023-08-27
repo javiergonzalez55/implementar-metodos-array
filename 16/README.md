@@ -2,20 +2,18 @@
 
 # Exercício 03
 
-## Validando lista de compras
+## Filtrar maior número
 
-A mãe do João deu uma lista de compras para ele ir até o mercado e comprar os itens da lista. Chegando no mercado, João leu um aviso que informava a proibição da venda de dois tipos de bebidas alcoolicas naquele horário: `cerveja` e `vodka`. Sendo assim, João precisa verificar se em sua lista possui alguma das duas bebidas.
-
-Faça um programa que use a função `some()` para validar essa lista de compras e caso encontre alguma das duas bebidas imprima `revise sua lista, joão. possui bebida com venda proibida!`, caso contrário, imprima `tudo certo, vamos as compras!`.
+Utilizando `reduce()` faça um programa que determina o maior valor de um array de números inteiros e imprima o resultado.
 
 ```javascript
-const palavras = ["arroz", "feijão", "carne", "cerveja", "macarrão"]
+const numeros = [1, 98, -76, 0, 12, 19, 5, 60, 44]
 ```
 
-Para o exemplo acima, o programa deverá imprimir:
+Para o exemplo acima, o resultado deve ser:
 
 ```
-revise sua lista, joão. possui bebida com venda proibida!
+98
 ```
 
 Faça o teste com outros exemplos.

@@ -1,16 +1,14 @@
-// programa que filtra os elementos de um array de cidades que contenham até 8 caracteres 
-// e imprima em formato string
+// codigo que procura por um livro dentro de un array de livros e informa a posição dele
 
-const cidades = [
-    "Salvador",
-    "São Paulo",
-    "Brasilia",
-    "Recife",
-    "Rio de Janeiro",
-];
+const livros = ['Guerra e Paz', 'A Montanha Mágica', 'Cem Anos de Solidão', 'Dom Quixote', 'A Divina Comédia'];
+const nomeDoLivro = "Dom Quixote";
 
-const filtrarCidades = cidades.filter((cidade) => {
-    return cidade.length <= 8
-});
+const informarPosicaoDoLivro = (nomeDoLivro) => {
 
-console.log(filtrarCidades.join(", "));
+    const indiceDoLivro = livros.findIndex((livro) => {
+        return livro === nomeDoLivro;
+    })
+    console.log(`O livro está na posição ${indiceDoLivro + 1}`);
+};
+
+informarPosicaoDoLivro(nomeDoLivro);

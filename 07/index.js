@@ -1,17 +1,18 @@
-// programa que localiza o cep e informa o endereço da rua
+// programa que programa que, a partir de um array, cria um novo array com os mesmos 
+// elementos mas que todos os elementos comecem com letras maiúsculas e em cada elemento
+// seja adicionado o número do índice correspondente
 
-const encontarEndereço = (cep) => {
-    const endereços = [
-        { cep: 00111222, rua: "Rua dos Artistas" },
-        { cep: 00111333, rua: "Rua Augusta" },
-        { cep: 00222444, rua: "Avenida Paralela" },
-        { cep: 11222333, rua: "Rua Carlos Gomes" },
-    ];
+const frutas = ["Manga", "UVA", "abacaxi", "banaNA", "MAçã", "mElAnCiA"];
 
-    const encontrarRua = endereços.find((endereço) => {
-        return endereço.cep === cep;
-    })
-    console.log(encontrarRua.rua);
-};
+let i = 0;
 
-encontarEndereço(00111222); // "Avenida Paralela"
+const novoFrutas = frutas.map((fruta) => {
+
+    const iTexto = String(i);
+    const frutaFormatada = iTexto + " - " + fruta.slice(0, 1).toUpperCase() + fruta.slice(1).toLowerCase();
+    i++;
+    return frutaFormatada;
+
+})
+
+console.log(novoFrutas);

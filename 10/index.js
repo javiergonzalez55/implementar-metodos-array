@@ -1,9 +1,19 @@
-// programa que filtra apenas os numeros pares de um array de numeros
+// programa que filtra um array de strings e retorna um novo array apenas com aqueles que 
+// começam com a letra **a**, maiúscula ou minúscula.
 
-const numeros = [1, 98, -76, 0, 12, 19, 5, 60, 44];
+const nomes = [
+    "Maria",
+    "João",
+    "José",
+    "Antonio",
+    "Beatriz",
+    "Camila",
+    "amanda",
+];
 
-const filtrarNumerosPares = numeros.filter((numero) => {
-    return numero % 2 === 0;
-});
+const filtrarNomesLetraAa = nomes.filter((nome) => {
+    return nome.slice(0, 1) === "A" || nome.slice(0, 1) === "a";
 
-console.log(filtrarNumerosPares);
+})
+
+console.log(filtrarNomesLetraAa);

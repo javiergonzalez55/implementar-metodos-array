@@ -1,43 +1,19 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Lista de exercícios de Ordenação
+# Exercício 02
 
-Usando o método `sort()` resolva as seguintes questões:
+## Verificando limite de caracters
 
-**a)** Ordenar o array abaixo em ordem crescente.
+Dado um determinado array de palavras, faça um programa que verifica se existe ao menos uma palavra com mais de 5 caracteres. Caso exista, o programa deverá imprimir `existe palavra inválida`, senão, o programa deverá imprimir `array validado`.
 
 ```javascript
-const numeros = [10, 1, 5, 50, 20, 30, 3, 4, 8, 2]
+const palavras = ["livro", "caneta", "sol", "carro", "orelha"]
 ```
 
-**b)** Ordenar o array abaixo em ordem decrescente.
+Para o exemplo acima, o programa deverá imprimir:
 
-```javascript
-const numeros = [10, 1, 5, 50, 20, 30, 3, 4, 8, 2]
 ```
-
-**c)** Ordenar o array abaixo em ordem crescente, com base nos valores dos pontos de código Unicode.
-
-```javascript
-const numeros = [10, 1, 5, 50, 20, 30, 3, 4, 8, 2]
-```
-
-**d)** Ordenar o array abaixo em ordem alfabética.
-
-```javascript
-const frutas = ["Banana", "Amora", "abacaxi", "uva", "Pera"]
-```
-
-**e)** Ordenar o array abaixo em ordem alfabética decrescente.
-
-```javascript
-const frutas = ["Banana", "Amora", "abacaxi", "uva", "Pera"]
-```
-
-**f)** Ordenar o array abaixo em ordem crescente, de acordo com a quantidade de caracters (do que tem menos caracteres, para o que tem mais).
-
-```javascript
-const frutas = ["Banana", "Amora", "abacaxi", "uva", "Pera"]
+existe palavra inválida
 ```
 
 Faça o teste com outros exemplos.

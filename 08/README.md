@@ -1,19 +1,19 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Exercício 08
+# Exercício 09
 
-## Modificando um array
+## Filtro de números positivos
 
-Faça um programa que, a partir de um array, cria um novo array com os mesmos elementos mas que todos os elementos comecem com letras maiúsculas e em cada elemento seja adicionado o número do índice correspondente.
+Faça um programa que filtra um array de números inteiros e retorne um novo array apenas com os números positivos.
 
 ```javascript
-const frutas = ["Manga", "UVA", "abacaxi", "banaNA", "MAçã"]
+    const numeros = [10, 987, -886, 0, 12, 199, -45, -67]
 ```
 
 Para o exemplo acima, o resultado deve ser:
 
 ```
-['0 - Manga', '1 - Uva', '2 - Abacaxi', '3 - Banana', '4 - Maçã']
+[10, 987, 12, 199]
 ```
 
 Faça o teste com outros exemplos.

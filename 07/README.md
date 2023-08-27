@@ -1,26 +1,19 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Exercício 07
+# Exercício 08
 
-## Busca de CEP
+## Modificando um array
 
-Crie uma função que localize um endereço em um array através do CEP e imprima o nome da rua.
-
-**Dica:** Utilizar o método `find()`
+Faça um programa que, a partir de um array, cria um novo array com os mesmos elementos mas que todos os elementos comecem com letras maiúsculas e em cada elemento seja adicionado o número do índice correspondente.
 
 ```javascript
-const endereços = [
-  { cep: 00111222, rua: "Rua dos Artistas" },
-  { cep: 00111333, rua: "Rua Augusta" },
-  { cep: 00222444, rua: "Avenida Paralela" },
-  { cep: 11222333, rua: "Rua Carlos Gomes" },
-];
+const frutas = ["Manga", "UVA", "abacaxi", "banaNA", "MAçã"]
 ```
 
-Supondo que o CEP informado na função seja `00222444`, o resultado deve ser:
+Para o exemplo acima, o resultado deve ser:
 
 ```
-Avenida Paralela
+['0 - Manga', '1 - Uva', '2 - Abacaxi', '3 - Banana', '4 - Maçã']
 ```
 
 Faça o teste com outros exemplos.
@@ -31,9 +24,9 @@ Faça commit do resultado.
 
 Preencha a checklist para finalizar o exercício:
 
-- [ ] Resolver o exercício revendo a aula se necessário
-- [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
-- [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
-- [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
+-   [ ] Resolver o exercício revendo a aula se necessário
+-   [ ] Adicionar as mudanças aos commits (`git add .` para adicionar todos os arquivos, ou `git add nome_do_arquivo` para adicionar um arquivo específico)
+-   [ ] Commitar a cada mudança significativa ou na finalização do exercício (`git commit -m "Mensagem do commit"`)
+-   [ ] Pushar os commits na sua branch na origem (`git push origin nome-da-branch`)
 
 ###### tags: `backend` `lógica` `exercício` `nodeJS` `JavaScript`

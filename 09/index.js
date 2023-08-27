@@ -1,9 +1,9 @@
-// programa que filtra os numeros de um array de numeros e retorna apenas os positivos
+// programa que filtra apenas os numeros pares de um array de numeros
 
-const numeros = [10, 987, -886, 0, 12, 199, -45, -67]
+const numeros = [1, 98, -76, 0, 12, 19, 5, 60, 44];
 
-const filtrarNumerosPositivos = numeros.filter((numero) => {
-    return numero > 0
+const filtrarNumerosPares = numeros.filter((numero) => {
+    return numero % 2 === 0;
 });
 
-console.log(filtrarNumerosPositivos);
+console.log(filtrarNumerosPares);

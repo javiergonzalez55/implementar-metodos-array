@@ -1,19 +1,21 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Exercício 03
+# Exercício 04
 
-## Filtrar maior número
+## Validação de numeros pares
 
-Utilizando `reduce()` faça um programa que determina o maior valor de um array de números inteiros e imprima o resultado.
+Dado o array numérico abaixo, faça um programa que consiga validar se todos os números são pares. Se todos os itens do array forem par, o programa deverá imprimir `array válido`, senão `array inválido`.
+
+Dica: utilize o método `every()`
 
 ```javascript
-const numeros = [1, 98, -76, 0, 12, 19, 5, 60, 44]
+const numeros = [0, 122, 4, 6, 7, 8, 44]
 ```
 
-Para o exemplo acima, o resultado deve ser:
+Para o exemplo acima, o programa deverá imprimir:
 
 ```
-98
+array inválido
 ```
 
 Faça o teste com outros exemplos.

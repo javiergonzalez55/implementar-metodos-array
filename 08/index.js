@@ -1,18 +1,9 @@
-// programa que programa que, a partir de um array, cria um novo array com os mesmos 
-// elementos mas que todos os elementos comecem com letras maiúsculas e em cada elemento
-// seja adicionado o número do índice correspondente
+// programa que filtra os numeros de um array de numeros e retorna apenas os positivos
 
-const frutas = ["Manga", "UVA", "abacaxi", "banaNA", "MAçã", "mElAnCiA"];
+const numeros = [10, 987, -886, 0, 12, 199, -45, -67]
 
-let i = 0;
+const filtrarNumerosPositivos = numeros.filter((numero) => {
+    return numero > 0
+});
 
-const novoFrutas = frutas.map((fruta) => {
-
-    const iTexto = String(i);
-    const frutaFormatada = iTexto + " - " + fruta.slice(0, 1).toUpperCase() + fruta.slice(1).toLowerCase();
-    i++;
-    return frutaFormatada;
-
-})
-
-console.log(novoFrutas);
+console.log(filtrarNumerosPositivos);

@@ -1,19 +1,16 @@
-// programa que filtra um array de strings e retorna um novo array apenas com aqueles que 
-// começam com a letra **a**, maiúscula ou minúscula.
+// programa que filtra os elementos de um array de cidades que contenham até 8 caracteres 
+// e imprima em formato string
 
-const nomes = [
-    "Maria",
-    "João",
-    "José",
-    "Antonio",
-    "Beatriz",
-    "Camila",
-    "amanda",
+const cidades = [
+    "Salvador",
+    "São Paulo",
+    "Brasilia",
+    "Recife",
+    "Rio de Janeiro",
 ];
 
-const filtrarNomesLetraAa = nomes.filter((nome) => {
-    return nome.slice(0, 1) === "A" || nome.slice(0, 1) === "a";
+const filtrarCidades = cidades.filter((cidade) => {
+    return cidade.length <= 8
+});
 
-})
-
-console.log(filtrarNomesLetraAa);
+console.log(filtrarCidades.join(", "));

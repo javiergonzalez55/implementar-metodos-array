@@ -1,20 +1,43 @@
 ![](https://i.imgur.com/xG74tOh.png)
 
-# Exercício 01
+# Lista de exercícios de Ordenação
 
-## Sistema para biblioteca
+Usando o método `sort()` resolva as seguintes questões:
 
-Faça um sistema que possa auxiliar funcionários a localizar em que posição da estante da biblioteca está um determinado livro. Sendo assim, o sistema deve receber o nome do livro e informar a sua posição na estante.
+**a)** Ordenar o array abaixo em ordem crescente.
 
-```javascript=
-const livros = ['Guerra e Paz', 'A Montanha Mágica', 'Cem Anos de Solidão', 'Dom Quixote', 'A Divina Comédia'];
-const nomeDoLivro = "Dom Quixote";
+```javascript
+const numeros = [10, 1, 5, 50, 20, 30, 3, 4, 8, 2]
 ```
 
-Para o exemplo acima o sistema deverá imprimir:
+**b)** Ordenar o array abaixo em ordem decrescente.
 
+```javascript
+const numeros = [10, 1, 5, 50, 20, 30, 3, 4, 8, 2]
 ```
-O livro está na posição 4
+
+**c)** Ordenar o array abaixo em ordem crescente, com base nos valores dos pontos de código Unicode.
+
+```javascript
+const numeros = [10, 1, 5, 50, 20, 30, 3, 4, 8, 2]
+```
+
+**d)** Ordenar o array abaixo em ordem alfabética.
+
+```javascript
+const frutas = ["Banana", "Amora", "abacaxi", "uva", "Pera"]
+```
+
+**e)** Ordenar o array abaixo em ordem alfabética decrescente.
+
+```javascript
+const frutas = ["Banana", "Amora", "abacaxi", "uva", "Pera"]
+```
+
+**f)** Ordenar o array abaixo em ordem crescente, de acordo com a quantidade de caracters (do que tem menos caracteres, para o que tem mais).
+
+```javascript
+const frutas = ["Banana", "Amora", "abacaxi", "uva", "Pera"]
 ```
 
 Faça o teste com outros exemplos.
