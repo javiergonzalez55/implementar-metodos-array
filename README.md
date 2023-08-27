@@ -29,12 +29,12 @@ São codigos com lógicas simples para reforçãr o uso dos metodos de manipula�
 
 1.- Fazer um fork do repositorio <https://github.com/javiergonzalez55/implementar-metodos-array>
 
-2.- Clonar o repositorio se atentando em qual dos 3 metodos (chaves HTTPS SSH GitHub CLI) foi executado 
+2.- Clonar o repositorio se atentando em qual dos 3 metodos (chaves HTTPS - SSH - GitHub CLI) foi executado 
     para a configuração da su máquina
 
 3.- Conferir que seu repositorio local está executando na branch main 
 
-4.- Fazer as alterações que sejam necessarias e dar git push origim main para trazer as suas contribuções.
+4.- Fazer as alterações que sejam necessarias e dar git push origin main para trazer as suas contribuções.
 
 **EM DESTAQUE:**
 
