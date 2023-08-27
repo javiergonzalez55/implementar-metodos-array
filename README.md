@@ -2,7 +2,7 @@
 
 **SOBRE:**
 
-Trata-se de exercicios simples onde são implementados os métodos mais usados para manipulação de arrays em JavaScript, dentre eles os métodos every, some, find, findIndex, filter, map, reverse, splice, slice, sort, reduce.
+Trata-se de 20 exercicios simples onde são implementados os métodos mais usados para manipulação de arrays em JavaScript, dentre eles os métodos push, every, some, find, findIndex, filter, map, reverse, splice, slice, sort, reduce.
 
 **CARACTERISTICAS:**
 
@@ -38,7 +38,7 @@ São codigos com lógicas simples para reforçãr o uso dos metodos de manipula�
 
 **EM DESTAQUE:**
 
-**sistema que automatiza o atendimento dos pacientes de uma clinica**
+**EXERCICIO 04 sistema que automatiza o atendimento dos pacientes de uma clinica**
 
 ![image](https://github.com/javiergonzalez55/implementar-metodos-array/assets/134230318/aff3fca2-9279-4585-8fab-6c280829cc7c)
 
